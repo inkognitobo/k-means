@@ -1,0 +1,23 @@
+# Set default style guide.
+BasedOnStyle: LLVM # LLVM or GNU
+Language: Cpp
+
+UseTab: Never
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 85
+
+AlignTrailingComments: true
+AlignArrayOfStructures: Left
+AlignConsecutiveMacros: AcrossEmptyLines
+AlignEscapedNewlines: Right
+AlignOperands: AlignAfterOperator
+
+# If false, a function declaration's parameters, function definition's parameters or 
+# function call's arguments will either all be on the same line or will have one line each.
+BinPackParameters: true
+BinPackArguments: true
+
+IncludeBlocks: Regroup
+
+LineEnding: DeriveLF
