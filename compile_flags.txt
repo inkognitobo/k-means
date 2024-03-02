@@ -1,0 +1,3 @@
+-lraylib
+-Isrc/ext/raylib/include
+-Lsrc/ext/raylib/lib
